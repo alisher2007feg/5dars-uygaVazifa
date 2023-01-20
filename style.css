@@ -1,0 +1,70 @@
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    ;
+    background-color: red;
+}
+.yellow_ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.balls{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+
+.red_balls{
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+    border-radius: 50%
+    
+}
+.yellow_balls{
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+}
+input{
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: 5px solid green;
+    border-radius: 8px;
+}
+button{
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: 5px solid green;
+    border-radius: 8px;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+  justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+}
+button:hover{
+    background-color: blue;
+    border: 5px solid steelblue;
+    transition: 0.3s;
+    color: white;
+}
